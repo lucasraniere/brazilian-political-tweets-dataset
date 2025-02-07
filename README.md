@@ -27,6 +27,7 @@ Both datasets were extracted using Twitter's (now X) official API—when Academi
    The extracted data was organized by day and search term. If the same search term appeared in Trending Topics on consecutive days, a separate file was stored for each respective day.
 
    ![image](https://github.com/user-attachments/assets/7688ce3e-4728-4656-896c-c97d74179582)
+   _Fig.: Extraction method scheme._
 
 ## Further Information
 
@@ -35,8 +36,8 @@ For more details, visit:
 - This repository
 - Dataset short paper:
 - Datasets:
-    - 2022 Brazilian Presidential Election
-    - 2023 Brazilian Early Political Events
+    - [2022 Brazilian Presidential Election]([url](https://zenodo.org/records/14827431))
+    - [2023 Brazilian Early Political Events]([url](https://zenodo.org/records/14834434))
 ---
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14827431.svg)](https://doi.org/10.5281/zenodo.14827431)
