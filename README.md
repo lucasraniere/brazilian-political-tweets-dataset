@@ -33,8 +33,6 @@ Both datasets were extracted using Twitter's (now X) official API—when Academi
 
 For more details, visit:
 
-- This repository
-- Dataset short paper:
 - Datasets:
     - [2022 Brazilian Presidential Election]([url](https://zenodo.org/records/14827431))
     - [2023 Brazilian Early Political Events]([url](https://zenodo.org/records/14834434))
