@@ -1,6 +1,5 @@
 import re
 import string
-from nltk.corpus import stopwords
 
 def remove_spaces(text):
     text = re.sub(r'\s+', ' ', text)
@@ -43,12 +42,6 @@ def remove_punctuation(text):
     return text.translate(str.maketrans('', '', string.punctuation))
 
 
-def remove_stopwords(text):
-    stop_words = set(stopwords.words('portuguese'))
-    words = text.split()
-    return ' '.join([word for word in words if word not in stop_words])
-
-
 def preprocess_text(text):
     text = text.lower()
     text = remove_mentions(text)
@@ -57,5 +50,4 @@ def preprocess_text(text):
     text = remove_emojis(text)
     text = remove_spaces(text)
     text = remove_punctuation(text)
-    text = remove_stopwords(text)
     return text
